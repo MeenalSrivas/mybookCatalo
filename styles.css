@@ -1,0 +1,209 @@
+/* General Reset and Body Styling */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f3ff; /* Light gray background */
+  margin: 0;
+  padding: 0;
+  color: #212529; /* Subtle text color */
+}
+
+/* Main Heading Styling */
+#main-heading {
+  color: #5a67d8; /* Calm blue */
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Search Bar Styling */
+.search-bar {
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.search-bar input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar button {
+  padding: 8px 20px;
+  margin-left: 10px;
+  background-color: #5a67d8; /* Matching blue */
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #4c51bf; /* Slightly darker blue */
+}
+
+/* Card Styling */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* Card Body Styling */
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.card .btn {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+
+.card .btn-primary {
+  background-color: #5a67d8;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.card .btn-primary:hover {
+  background-color: #4c51bf;
+}
+
+/* Footer Alignment for Back to Top */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px 0;
+  background-color: #5a67d8;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+#main-heading {
+  color: #4abdb7; /* Bright orange */
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Arial', sans-serif; /* Optional: Set font */
+}
+
+
+/* Styling specific to Edit Book page */
+body.edit-page {
+  font-family: Arial, sans-serif;
+  background-color: #7fa53a;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.edit-page h1 {
+  color: #343a40;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form Styles */
+#edit-book-form {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+#edit-book-form div {
+  margin-bottom: 15px;
+}
+
+#edit-book-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #495057;
+}
+
+#edit-book-form textarea,
+#edit-book-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#edit-book-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+#edit-book-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#edit-book-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Back to Home Link */
+.edit-page a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  margin-top: 10px;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.edit-page a:hover {
+  color: #0056b3;
+}
+
